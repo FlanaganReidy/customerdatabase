@@ -3,22 +3,23 @@ body{
 }
 h1{
   text-transform: uppercase;
+  font-family: 'Cabin', sans-serif;
 }
 .container{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
 }
 .user{
-  align-items: center;
-  text-align:center;
+  justify-content: space-around;
   min-width: 221px;
   padding-top: 20px;
   /*border: solid 1px black;*/
 }
 .names{
   text-transform: uppercase;
+  border-bottom: solid 1px green;
+  font-family: 'Cabin', sans-serif;
 }
 
 .city-state-code, .street{
