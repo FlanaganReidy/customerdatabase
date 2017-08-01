@@ -5,6 +5,7 @@ customers.results.forEach(function(e){
   `
   <img src= ${e.picture.large}>
   <div class = "names">${e.name.first} ${e.name.last}</div>
+  <br>
   <div class = "email">${e.email}</div>
   <br>
   <div class = "street">${e.location.street}</div>
